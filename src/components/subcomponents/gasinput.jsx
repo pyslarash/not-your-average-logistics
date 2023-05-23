@@ -73,10 +73,10 @@ function GasInput({ addGasInfo }) {
                 />
             </div>
             <button
-                className="px-4 py-1 items-center text-white bg-green-500 rounded-full hover:bg-green-600"
+                className="p-2 items-center rounded-full button-style"
                 onClick={handleAddGasInfo}
             >
-                <h2 className="text-2xl font-semibold">+</h2>
+                <strong className="font-semibold">Add Receipt</strong>
             </button>
         </>
     );
